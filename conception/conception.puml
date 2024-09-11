@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+actor "formateur" as fc
+rectangle class {
+  usecase "Modifier formation" as UC1
+  usecase " Supprimer formation" as UC2
+  usecase "Ajouter formation" as UC3
+  usecase "Rechercher formation " as UC4
+}
+fc -- UC1
+fc -- UC2
+fc -- UC3
+fc -- UC4
+@enduml
